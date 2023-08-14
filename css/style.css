@@ -1,0 +1,168 @@
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@200;300&display=swap');
+
+.esm_logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bloc{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.text{
+  position: relative;
+  /* margin-bottom: 100px; */
+  bottom: 60px;
+  font-family: 'Gothic A1';
+  color: #0C5E69;
+}
+
+
+.logo{
+  width: 100%;
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+}
+
+
+.content{
+  display: flex;
+  justify-content: center; /* Sur l'horizontal */
+  align-items: center; /* Sur la longueur*/
+}
+
+.montant{
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;   /*  pour mettre de l'espace en haut */
+
+}
+
+.budget, .depenses, .solde{
+  width: 30%;
+  height: 150px;
+  /* display: flex; */  
+  /* height: 300%; */
+  box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.25); ;
+  
+}
+
+.nom_budget, .nom_depense, .nom_solde {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-family: 'Gothic A1';
+  width: 100%;
+  height: 56px; /* 56-146 */
+  background-color: #0C5E69;
+
+}
+
+.montant_budget, .montant_depense, .montant_solde{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Gothic A1';
+  width: 100%;
+  height: 90px;
+  background-color: #fff;
+}
+.container_dep{
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  font-family: 'Gothic A1';
+
+}
+.liste_dep{
+  margin-top: 40px;
+  font-family: 'Gothic A1';
+  color: #D1C000;
+  font-size: 32px;
+  font-weight: 500;
+
+}
+
+td, th{
+  border: solid 1px;
+  padding: 18px;   /*  espace interieur */
+  
+}
+.tab{
+  width: 70%;
+ 
+}
+.liste_dep{
+  width: 70%;
+  /* margin-top: 50px; */
+}
+table{
+  border-collapse: collapse;
+  border-radius: 6px 6px 0px 0px;
+  border: 1px solid #E6E6E6;
+
+  margin-top: 40px;
+  width: 100%;
+
+
+}
+
+.content_tab{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+button{
+  color: #fff;
+  background-color: #FF5B5B;
+  border-radius: 6px;
+  width: 100px;
+  height: 40px;
+  border: none;
+
+
+}
+th{
+  background-color: #0C5E69;
+  color: #fff;
+  font-family: 'Gothic A1';
+}
+
+td{
+  border-color: #E6E6E6;
+
+}
+
+.ajout_dep_content {
+  display: flex;
+  /* justify-content: space-around; */
+  
+}
+
+
+.ajout{
+  color: #D1C000;
+  /* border-color: #E6E6E6; */
+  display: flex;
+  justify-content: space-between;
+  /* flex-direction: row; */
+  /* width: 70%; */
+}
+
+i{
+  color: #D1C000;
+  font-size: 1.5em;
+}
+

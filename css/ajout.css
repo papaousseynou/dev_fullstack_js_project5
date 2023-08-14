@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@200;300&display=swap');
+
+
+.esm_logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .bloc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+  }
+  
+  .text{
+    position: relative;
+    /* margin-bottom: 100px; */
+    bottom: 60px;
+    font-family: 'Gothic A1';
+    color: #0C5E69;
+  }
+  
+  
+  .logo{
+    width: 100%;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+  }
+
+
+.text_ajout{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 90px;
+    font-family: 'Gothic A1';
+    color: #0C5E69;
+}
+
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    /* bottom: 50px important; */
+    padding-top: 50px;
+
+    
+}
+
+.titre{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    bottom: 50px;
+    color: #0C5E69; 
+    font-family: 'Gothic A1';
+
+   
+}
+label{
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+input{
+    border-color: #E6E6E6;
+    width: 500px;
+    height: 60px;
+    border-radius: 6px;
+    border: 1px solid #E6E6E6;
+    background: #FFF;
+    flex-shrink: 0;
+    font-family: 'Gothic A1';
+    margin: 1px;
+
+    
+
+}
+
+button{
+    margin-top:40px;
+    width: 500px;
+    height: 60px;
+    border-radius: 6px;
+    background: #0C5E69;
+    flex-shrink: 0;
+    color: #fff;
+    font-family: 'Gothic A1';
+    border: 1px solid #E6E6E6;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+  /* width: 80px; */
+
+    /* display: flex;
+    align-items: center; */
+}
